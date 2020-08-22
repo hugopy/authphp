@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-size: border-box;
+	font-family: Ubuntu;
+}
+
+header {
+	background: #000;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header ul {
+	list-style: none;
+}
+
+header li {
+	display: inline;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+header a {
+	text-decoration: none;
+	color: inherit;
+	transition-property: color;
+	transition-duration: 0.25s;
+	text-transform: uppercase;
+}
+
+header li a:hover, header a:hover {
+	color: green;
+}
+
+header form li {
+	display: inline;
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
